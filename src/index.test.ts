@@ -77,4 +77,3 @@ describe('Value type test', () => {
 
     });
 })
-
