@@ -1,0 +1,26 @@
+{
+  "name": "tsresearch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prestart": "npm run build",
+    "start": "node .",
+    "test": "jest",
+    "test:debug": "jest --runInBand"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "js-gc": "^1.0.1",
+    "node-gyp": "^10.1.0",
+    "object-sizeof": "^2.6.4",
+    "ts-jest": "^29.1.2",
+    "typescript": "^5.4.5"
+  }
+}
